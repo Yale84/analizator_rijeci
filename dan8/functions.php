@@ -15,7 +15,12 @@ if (isset($_REQUEST["analyze"])) {
     }
     function to_uppercase($string){}
         // return(strtoupper,$string) 
-    function separate_into_vowels($string){}
+    function separate_into_vowels($string){
+        $array = array();
+        $len = strlen($string);
+        //array_push($array, $string[$i]);
+        array[$i];
+    }
         // implode($string)
     function vowels($string){}
         //preg_match('/^[aeiou]+$/', $string)
